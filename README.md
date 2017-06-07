@@ -96,13 +96,13 @@ Here's a hint on how to change the page url from within a controller. (You don't
 Inject the [`$location`](https://docs.angularjs.org/api/ng/service/$location) service, and use its `path` method.
 
 ```js  
-// inside GoatsShowController, we want to send the user back to goats index (home page) automatically
+// inside PokemonShowController, we want to send the user back to pokemon index (home page) automatically
 $location.path('/');
 ```
 
 
 Here is a hint on the format of template URLs when using local HTML files.
-    Give the full file name: `/templates/goats/show.html`.
+    Give the full file name: `/templates/pokemon/show.html`.
 
 
 ### Stretch Challenges
